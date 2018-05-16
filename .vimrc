@@ -5,13 +5,13 @@ set nocompatible              " be iMproved, required
  call vundle#begin()
  
   Plugin 'VundleVim/Vundle.vim'
-  "Plugin 'morhetz/gruvbox'
-  Plugin 'kien/ctrlp.vim'
+  Plugin 'ctrlpvim/ctrlp.vim'
+  Plugin 'tomasr/molokai'
   call vundle#end()            " required
  
  filetype plugin indent on    " required
  
- syntax enable
+ syntax on 
  colorscheme molokai
  set background=dark
  set number
@@ -51,8 +51,6 @@ set hlsearch
  " set confirm "asks to confirm changes
 
  set mouse=a "allows for mouse
-
-
 
 
  let s:comment_map = { 
