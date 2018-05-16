@@ -40,8 +40,8 @@ set hlsearch
  set autoindent
  " set smartindent <- don't use this according to stack overflow
  set copyindent
- set shiftwidth=4
- set tabstop=4
+ set shiftwidth=2
+ set tabstop=2
         
 
  set nostartofline
