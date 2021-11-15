@@ -1,7 +1,7 @@
 set t_Co=256 
 set nocompatible              " be iMproved, required
  filetype off
- set rtp+=~/.vim/bundle/Vundle.vim
+ set rtp+=~/.vim/plugin/Vundle.vim
  call vundle#begin()
  
   Plugin 'VundleVim/Vundle.vim'
@@ -15,7 +15,7 @@ set nocompatible              " be iMproved, required
  colorscheme molokai
  set background=dark
  set number
- set relativenumber
+" set relativenumber
 
  
  " visual settings
